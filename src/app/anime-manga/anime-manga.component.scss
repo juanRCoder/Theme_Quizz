@@ -2,30 +2,15 @@
   display: flex;
   flex-direction: column;
 }
-
-.firstButton {
-  order: 1;
-}
-
-.secondButton {
-  order: 2;
-}
-
-.thirdButton {
-  order: 3;
-}
-
-.fourthButton {
-  order: 4;
-}
-
+.firstButton {order: 1;}
+.secondButton {order: 2;}
+.thirdButton {order: 3;}
+.fourthButton {order: 4;}
 .section {
   font-family: "Inter-Bold", sans-serif;
-  width: 650px;
-
+  color: #fff;
   h1 {
     color: #a8cd9f;
-    font-family: "Inter-Bold", sans-serif;
     font-size: 44px;
     text-align: left;
     padding: 0px 60px 20px 0px;
@@ -36,16 +21,13 @@
   .containerHeaders {
     display: flex;
     justify-content: space-between;
-
     > p {
-      color: #fff;
       font-size: 25px;
       margin: 0px;
       text-shadow: 0px 2px #0004;
     }
   }
   .result {
-    color: #fff;
     font-size: 27px;
     padding-top: 15px;
     font-weight: 700;
@@ -56,14 +38,11 @@
     outline: 1px solid #fff5;
     border-radius: 5px;
     margin: 15px 0px 20px 0px;
-    color: #fff;
-    font-weight: bolder;
     font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 30px 0px;
-
     &_correct {
       margin: 0px;
       color: #70de75;
@@ -75,7 +54,6 @@
   }
   .boxMessage {
     > p {
-      color: #fff;
       font-size: 18px;
       text-align: center;
       margin: 0px;
@@ -88,28 +66,21 @@
     justify-content: center;
     gap: 50px;
     padding: 20px 0px;
-
     > button {
       padding: 15px 10%;
       background-color: #d9d9d940;
       border: none;
       outline: none;
-      color: #fff;
       text-shadow: 0px 2px #0004;
       border-radius: 5px;
       font-size: 18px;
       cursor: pointer;
       transition: background-color 0.1s ease;
-
-      &:hover {
-        background-color: #d9d9d980;
-      }
+      &:hover { background-color: #d9d9d980;}
     }
   }
- 
   .question {
     font-family: "Inter-Medium", sans-serif;
-    color: #fff;
     font-size: 20px;
     text-align: justify;
     height: 80px;
@@ -117,9 +88,7 @@
     display: flex;
     align-items: center;
   }
-
-  .boxOptions {
-    > button {
+  .boxOptions > button {
       background-color: #d9d9d940;
       color: #fff;
       text-shadow: 0px 2px #0004;
@@ -131,10 +100,7 @@
       border: none;
       cursor: pointer;
       transition: background-color 0.1s ease;
-
-      &:hover {
-        background-color: #d9d9d980;
-      }
+      &:hover { background-color: #d9d9d980;}
       &.answerCorrect {
         background-color: #b0eba2ab;
         outline: 1px solid #b0eba2;
@@ -143,33 +109,25 @@
         background-color: #d55151ab;
         outline: 1px solid #d55151;
       }
-    }
-  
   }
   .answerCorrect {
     background-color: #b0eba2;
     outline: 1px solid #b0eba2;
   }
-
   .btnDashboard {
     height: 73px;
     display: flex;
     align-items: center;
     justify-content: center;
-
     > a {
       display: block;
       height: 100%;
-
       > svg {
         fill: #fff;
         width: 100%;
         height: 100%;
       }
-
-      &:hover > svg {
-        fill: #a8cd9f;
-      }
+      &:hover > svg {fill: #a8cd9f;}
     }
   }
 }

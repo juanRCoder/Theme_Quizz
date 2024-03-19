@@ -58,10 +58,12 @@ export class AnimeMangaComponent {
   ////PREGUNTAS RANDOM FILTRADO POR DIFICULTAD
   renderQuestions() {
     if (this.questions.length > 0) {
+      //filtrado de preguntas segun la dificultad
       const quizzies = this.questions.filter(
         (qz: any) => qz.difficulty === this.optionDifficult
       );
-
+      
+      //reinicio de repguntas vistas
       if (this.questionsViews.length === quizzies.length) {
         this.questionsViews = [];
       }
