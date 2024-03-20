@@ -1,49 +1,41 @@
-# MindMeldTrivia
+<img src="./src/assets/banner_project.png" alt="Logo"  width="100%">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+## Theme-Quizz: Pon a prueba tu sabiduria
 
-## Development server
+Pon a prueba tu sabiduria, esta aplicacion tiene una serie de preguntas separadas por dificultad y 4 categorias("en un futuro pondre mas categorias"), adivina la respuesta 
+correcta y aprender algo nuevo al dia, resolviendo esta pequeña quizz.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+WebSite: [https://theme-quiz.netlify.app/](https://theme-quiz.netlify.app/)
 
-## Code scaffolding
+## 🛠 Tecnologías:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## API TRIVIA:
-- https://opentdb.com/api.php?amount=30&category=21&difficulty=easy
-
-* Category:
-- 31, Anime/Manga
-
-- 17, Ciencia & Naturaleza
-
-- 11, cine
-
-- 21, deporte
-
-- 9, cultura general
-
-- 23, historia
+- Este proyecto fue realizado con las siguientes tecnologias y dependencias:
+  - [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+  - [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.dev/)
+  - [![SCSS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/documentation/syntax/)
+  - [![Netifly](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://docs.netlify.com/)
 
 
-* difficulty:
-- easy
-- medium
-- hard
+## 📱💻 Diseño responsivo (mobile & tablet):
+
+- Estos son los diferentes vistas para cualquier dispositivo.
+<div align="center">
+   <img src="./src/assets/mobile_dashboard.png" alt="Logo" width="250" />
+  <img src="./src/assets/laptop_dashboard.png" alt="Logo" width="500" /> 
+</div>
+
+## 🧑 Autor: Juan Ramirez
+
+- Linkedin: [@Juan Ramirez](https://www.linkedin.com/in/juan-ramirez-490b84271/)
+- Instagram: [@juanrcoder](https://www.instagram.com/juanrcoder/)
+
+### Proyecto:
+
+- WebSite: [https://theme-quiz.netlify.app/](https://theme-quiz.netlify.app/)
+
+## Licence:
+
+- Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## API TRIVIA (acategoria anime):
+- https://opentdb.com/api.php?amount=21&category=31&difficulty=easy
