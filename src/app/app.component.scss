@@ -1,12 +1,5 @@
-main {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  height: 92%;
-  padding-top: 30px;
-}
 footer {
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0px;
   padding: 0px;
@@ -17,6 +10,6 @@ footer {
     font-size: 18px;
     font-weight: 700;
     margin: 0px;
-    padding: 35px 0px;
+    padding: 30px 0px 0px;
   }
 }
