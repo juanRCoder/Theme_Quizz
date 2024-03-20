@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Injectable } from '@angular/core';
+import { Component, Injectable, Input  } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { NgClass } from '@angular/common';
 
@@ -14,6 +14,9 @@ import { NgClass } from '@angular/common';
   styleUrl: './anime-manga.component.scss',
 })
 export class AnimeMangaComponent {
+  @Input() title: string = 'Anime/Manga';
+  @Input() apiUrl: string = 'https://raw.githubusercontent.com/juanRCoder/dataJSON-my-dataBase/main/Theme-Quizz/QZ_animeManga.json';
+
   //VARIABLES DE LOGICA
   optionDifficult: string = '';
   questions: any;
@@ -33,13 +36,11 @@ export class AnimeMangaComponent {
   incorrects: number = 0;
 
   //SOLICITUD API Y OBTENCION DE DIFICULTAD POR LOCALSTORAGE
-  url =
-    'https://raw.githubusercontent.com/juanRCoder/dataJSON-my-dataBase/main/QZ_animeManga.json';
   constructor(private requestGet: HttpClient) {}
 
   ngOnInit(): void {
     this.optionDifficult = localStorage.getItem('difficult') || '';
-    this.requestGet.get(this.url).subscribe((data) => {
+    this.requestGet.get(this.apiUrl).subscribe((data) => {
       this.questions = data;
       this.renderQuestions();
     });
@@ -73,7 +74,7 @@ export class AnimeMangaComponent {
         this.incorrect_answers = quizzies[random].incorrect_answers;
         this.position = Math.floor(Math.random() * 4);
         this.resetAnswerState();
-      }, 1000);
+      }, 600);
     } else {
       console.log('No se encontraron resultados');
     }
