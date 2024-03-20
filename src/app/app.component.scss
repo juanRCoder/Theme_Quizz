@@ -1,17 +1,15 @@
 main {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 92%;
+  padding-top: 30px;
 }
 footer {
   position: absolute;
   width: 100%;
   bottom: 0px;
   padding: 0px;
-
-  @media (max-width: 380px) {}
-
   > p {
     color: #a8cd9f;
     text-align: center;

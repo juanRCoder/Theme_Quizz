@@ -25,6 +25,7 @@ export class AnimeMangaComponent {
   answerIncorrect2: boolean = false;
   answerIncorrect3: boolean = false;
 
+
   //VARIABLES PARA RENDERIZAR
   question: string = '';
   correct_answer: string = '';
@@ -104,7 +105,6 @@ export class AnimeMangaComponent {
       } else if (pst === 3) {
         this.answerIncorrect3 = true;
       }
-    
     }
   }
   //RESET RESPONSE

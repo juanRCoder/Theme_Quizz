@@ -16,6 +16,8 @@ export class DashboardComponent {
     { id: 3, difficult: 'hard' },
   ];
 
+  sound: any = new Audio();
+
   selectDifficult: string = '';
 
   //Directiva que establece el valor inicial de la propiedad en 'easy'
@@ -26,5 +28,10 @@ export class DashboardComponent {
   //Enviar el valor a localStorage
   sendDifficult() {
     localStorage.setItem('difficult', this.selectDifficult);
+  }
+
+  soundSelect(){
+    this.sound.src = "../../assets/option.mp3";
+    this.sound.play();
   }
 }
