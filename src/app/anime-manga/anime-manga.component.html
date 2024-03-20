@@ -35,17 +35,6 @@
     }
   </div>
 
-  <!-- Cambios de dificultad -->
-  <div class="btnsNextLevel">
-    @if (optionDifficult === 'easy'){
-    <button (click)="changeLevel('medium')">Siguiente Nivel</button>
-    } @if (optionDifficult === 'medium'){
-    <button (click)="changeLevel('hard')">Siguiente Nivel</button>
-    }
-    <!-- Reload -->
-    <button (click)="reloadPage()">Reiniciar Nivel</button>
-  </div>
-
   } @else {
   <p class="question">{{ question }}</p>
   <div class="boxOptions">
