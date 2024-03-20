@@ -19,7 +19,6 @@ export class AnimeMangaComponent {
   questions: any;
   questionsViews: number[] = [];
   position: number = 0;
-  changeDifficult: string = '';
   answerCorrect: boolean = false;
   answerIncorrect1: boolean = false;
   answerIncorrect2: boolean = false;
@@ -44,16 +43,6 @@ export class AnimeMangaComponent {
       this.questions = data;
       this.renderQuestions();
     });
-  }
-
-  //CAMBIO DE NIVEL POR PARTE DEL USUARIO
-  changeLevel(str: string) {
-    this.changeDifficult = str;
-    localStorage.setItem('difficult', this.changeDifficult);
-    window.location.reload();
-  }
-  reloadPage() {
-    window.location.reload();
   }
 
   ////PREGUNTAS RANDOM FILTRADO POR DIFICULTAD
@@ -84,7 +73,7 @@ export class AnimeMangaComponent {
         this.incorrect_answers = quizzies[random].incorrect_answers;
         this.position = Math.floor(Math.random() * 4);
         this.resetAnswerState();
-      }, 300);
+      }, 1000);
     } else {
       console.log('No se encontraron resultados');
     }
@@ -105,6 +94,7 @@ export class AnimeMangaComponent {
       } else if (pst === 3) {
         this.answerIncorrect3 = true;
       }
+      this.answerCorrect = true;
     }
   }
   //RESET RESPONSE
