@@ -16,6 +16,15 @@ WebSite: [https://theme-quiz.netlify.app/](https://theme-quiz.netlify.app/)
   - [![Netifly](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://docs.netlify.com/)
 
 
+## 📈 Diagrama de flujo:
+
+- Este es un pequeño diagrama del planteamiento y seguimiento estatico del proyecto.
+
+<div align="center">
+  <img src="./src/assets/diagram.png" alt="diagramProject">
+</div>
+
+
 ## 📱💻 Diseño responsivo (mobile & tablet):
 
 - Estos son los diferentes vistas para cualquier dispositivo.
