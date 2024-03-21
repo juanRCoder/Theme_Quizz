@@ -2,8 +2,7 @@
 
 ## Theme-Quizz: Pon a prueba tu sabiduria
 
-Pon a prueba tu sabiduria, esta aplicacion tiene una serie de preguntas separadas por dificultad y 4 categorias("en un futuro pondre mas categorias"), adivina la respuesta 
-correcta y aprender algo nuevo al dia, resolviendo esta pequeña quizz.
+Desafía tu conocimiento con una aplicación que presenta una serie de preguntas divididas por dificultad y cuatro categorías principales (¡pronto añadiremos más!). Adivina las respuestas correctas y aprende algo nuevo cada día resolviendo este breve quiz.
 
 WebSite: [https://theme-quiz.netlify.app/](https://theme-quiz.netlify.app/)
 
