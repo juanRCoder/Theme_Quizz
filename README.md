@@ -33,6 +33,9 @@ WebSite: [https://theme-quiz.netlify.app/](https://theme-quiz.netlify.app/)
   <img src="./src/assets/laptop_dashboard.png" alt="Logo" width="500" /> 
 </div>
 
+## API TRIVIA (categoria anime):
+- https://opentdb.com/api.php?amount=21&category=31&difficulty=easy
+
 ## 🧑 Autor: Juan Ramirez
 
 - Linkedin: [@Juan Ramirez](https://www.linkedin.com/in/juan-ramirez-490b84271/)
@@ -45,6 +48,3 @@ WebSite: [https://theme-quiz.netlify.app/](https://theme-quiz.netlify.app/)
 ## Licence:
 
 - Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## API TRIVIA (acategoria anime):
-- https://opentdb.com/api.php?amount=21&category=31&difficulty=easy
